@@ -2,13 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Hassan personal website</title>
+      <title>Hassan personal website</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="icon" href="webicon.ico?v=2">
+    
   </head>
-  <body>
+  <body></body>
     <table cellspacing="20">
       <tr>
         <td>
-          <img
+          <img class="circular"
             src="https://64.media.tumblr.com/a26409eae269c9e363947f630d624e3c/20e17643d669d4c1-f5/s400x600/6c4c68dcaa0e848716bd07675a3a9caf0c97061a.jpg"
             alt=""
           />
@@ -48,11 +51,25 @@
         
     </table>
     <form action="mailto:ikamui9@gmail.com" method="post" enctype="text/plain">
-        <label>Type your name</label>
-        <input type="text" name="NameAttribute" id=""><br>
-        <label>Your Message:</label><br>
-        <textarea name="MessageAttribute" id="" cols="30" rows="10"></textarea><br>
-        <input type="submit" name="" id="2">
+      <table>
+        <tr>
+          <td><label>Type your name</label></td>
+          <td><input type="text" name="NameAttribute" id=""></td>
+        </tr>
+        <tr>
+          <td><label>Your Email:</label></td>
+          <td><input type="email" name="EmailAttribute" id=""></td>
+        </tr>
+        <tr>
+          <td><label>Your Message:</label></td>
+          <td><textarea name="MessageAttribute" id="" cols="30" rows="10"></textarea><br></td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="" id="2"></td>
+        </tr>
+      </table>
+  
+        
     </form>
   </body>
 </html>
